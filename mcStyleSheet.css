@@ -1,0 +1,96 @@
+body {
+	background-color: #F0FFFF;
+	text-align: center;
+}
+
+.pageTitle {
+	font-size: 52px;
+	font-family: 'Lucida Console';
+	font-weight: bolder;
+	text-align: center;
+	border: 3px solid black;
+	padding: 30px 30px 30px 30px;
+	letter-spacing: 20px;
+	color: white;
+	background-image: url("https://d31sxl6qgne2yj.cloudfront.net/wordpress/wp-content/uploads/20190102094851/Minecraft-Dirt-Block.jpg")
+}
+
+a {
+	color: blue;
+	transition-property: color;
+	transition-duration: 0.15s
+}
+
+a:hover {
+	color: yellow;
+}
+
+.pageSubtitle {
+	font-family: Verdana;
+	letter-spacing: 5px;
+	text-align: center;
+	display: block;
+}
+
+.sectionTitle {
+	font-family: 'Lucida Console';
+	font-weight: bolder;
+	margin: 20px 0px 20px 0px;
+}
+
+.subsectionTitle {
+	font-family: Verdana;
+	font-weight: normal;
+	margin: 5px 0px 5x 0px;
+}
+
+#navigationBar {
+	border: 3px solid blue;
+	float: right;
+	position: fixed;
+	margin: 200px 50px 0px 480px;
+	opacity: 0.2;
+	background-color: white;
+	font-weight: bolder;
+	padding: 10px 20px 20px 20px;
+	transition-duration: 0.5s;
+	transition-property: opacity;
+	text-align: center;
+	z-index: 1;
+	display: inline-flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	
+}
+
+#navigationBar:hover {
+	opacity: 1;
+}
+
+#rarityTable {
+	text-align: left;
+	border: 1px solid black;
+	background-color: black;
+	border-spacing: 0px;
+	display: inline-block;
+}
+
+td, th {
+	border: 1px solid black;
+	background-color: white;
+}
+
+p, li, span, label {
+	font-family: Garamond;
+	font-size: 18px !important; 
+	line-height: 30px;
+}
+
+li {
+	font-weight: bolder;
+	display: block;
+}
+
+img, video {
+	border: 4px solid black;
+}
